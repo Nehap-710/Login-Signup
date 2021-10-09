@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family:'Franklin Gothic Medium', Arial, sans-serif;
+}
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Backgound.png);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+.nav-area {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+
+.inputs {
+    padding-top: 50px;
+    /* /padding-left: 10px; */
+}
+
+.Heading{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    width: 50%;
+}
+.signup{
+    text-align: center;
+    align-items: center;
+}
+
+#MainHead{
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    
+}
+
+.labels{
+    font-size: 15pt;
+}
+
+#entry{
+    width:90%;
+    margin-left: 5px;
+}
+
+#entry a{
+    color:#000;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, sans-serif;
+    line-height: 1.3;
+    width: 30%;
+    padding: 1rem 2rem;
+    padding-left: 50px;
+    margin: auto;
+    margin-top: 10px;
+    display:block;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+form .box{
+    width: 100%;
+    height: 1cm;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+}
+
+::placeholder{
+    color:rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.labels{
+    font-size: 15pt;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    form{
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(2px);
+      background-color: rgba(99, 100, 103, 0.5);
+    }
+    form .box{
+      -webkit-backdrop-filter: blur(2px);
+      backdrop-filter: blur(1px);
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.button1{
+    width: 100%;
+    height: 1cm;
+    margin-left: 5px;
+    position: relative;
+    background-color:rgb(6, 13, 57);;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.button1:hover{
+    background-color:rgb(0, 34, 253);;
+}
